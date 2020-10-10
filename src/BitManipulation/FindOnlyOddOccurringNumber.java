@@ -1,5 +1,3 @@
-package BitManipulation;
-
 public class FindOnlyOddOccurringNumber {
 
     static int findNum(int[] arr, int n) {

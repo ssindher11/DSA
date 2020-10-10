@@ -1,5 +1,3 @@
-package BitManipulation;
-
 public class PowerSetUsingBitwise {
 
     // Time Complexity: O(n * (2^n))

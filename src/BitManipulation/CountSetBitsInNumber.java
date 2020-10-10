@@ -1,5 +1,3 @@
-package BitManipulation;
-
 public class CountSetBitsInNumber {
 
     static int countBits(int n) {

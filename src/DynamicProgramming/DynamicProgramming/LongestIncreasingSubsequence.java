@@ -1,8 +1,6 @@
 package DynamicProgramming;
 
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.LinkedHashMap;
 import java.util.Scanner;
 
 public class LongestIncreasingSubsequence {
@@ -30,6 +28,7 @@ public class LongestIncreasingSubsequence {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
+        sc.close();
         System.out.println(findLIS(arr, n));
     }
 }

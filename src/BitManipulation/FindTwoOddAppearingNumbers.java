@@ -1,5 +1,3 @@
-package BitManipulation;
-
 public class FindTwoOddAppearingNumbers {
 
     static void find(int[] arr, int n) {
@@ -8,7 +6,6 @@ public class FindTwoOddAppearingNumbers {
             xor ^= arr[i];
         }
         int sn = xor & -xor;
-//        int sn = xor & ~(xor - 1);
         for (int i = 0; i < n; i++) {
             if ((sn & arr[i]) != 0) {
                 r1 ^= arr[i];

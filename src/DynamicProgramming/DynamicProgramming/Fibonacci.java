@@ -38,6 +38,19 @@ public class Fibonacci {
         return dp[n];
     }
 
+    // Two variable method
+    static int fibTwoVariable(int n) {
+        int pp = 0;
+        int p = 1;
+        int curr = 1;
+        for (int i = 2; i <= n; i++) {
+            curr = p + pp;
+            pp = p;
+            p = curr;
+        }
+        return curr;
+    }
+
     public static void main(String[] args) {
         int n = 7;
         System.out.println(fib(n));
@@ -45,6 +58,7 @@ public class Fibonacci {
         Arrays.fill(dp, -1);
         System.out.println(fibDP(n, dp));
         System.out.println(fibBottomUpDP(n));
+        System.out.println(fibTwoVariable(n));
     }
 
 }

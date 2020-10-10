@@ -1,7 +1,5 @@
 package DynamicProgramming;
 
-import java.util.Arrays;
-
 public class _0_1_Knapsack {
 
     // recursive

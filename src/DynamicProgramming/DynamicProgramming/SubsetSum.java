@@ -37,8 +37,6 @@ public class SubsetSum {
     public static void main(String[] args) {
         int[] arr = {10, 20, 15, 5, 5};
         int sum = 25;
-        /*int[] arr = {2, 5, 3};
-        int sum = 5;*/
         System.out.println(countSubsetsRec(arr, arr.length, sum));
         System.out.println(countSubsets(arr, arr.length, sum));
     }
